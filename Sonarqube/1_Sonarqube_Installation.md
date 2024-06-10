@@ -62,6 +62,7 @@ chown -R sonar:sonar /opt/sonarqube-9.9
 chmod -R 775 /opt/sonarqube-9.9
 
 # Switch user to sonar
+# sonar quebe will start by sonar user 
 su - sonar
 cd /opt/sonarqube-9.7
 cd bin
